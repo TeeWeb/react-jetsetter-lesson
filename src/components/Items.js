@@ -17,7 +17,7 @@ class Items extends Component {
           {title} ({items.length})
         </h2>
         <Filter searchTerm={''} onChange={this.updateSearchTerm} />
-        {items
+        {/* {items
           .filter(item =>
             // Hmm… this needs some work.
             item.value.toLowerCase().includes(''.toLowerCase()),
@@ -29,7 +29,7 @@ class Items extends Component {
               onRemove={() => {}}
               item={item}
             />
-          ))}
+          ))} */}
       </section>
     );
   }
